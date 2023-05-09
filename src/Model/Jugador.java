@@ -26,8 +26,13 @@ public class Jugador {
             System.out.println(c.toString());
         }
     }
+<<<<<<< HEAD
 /*
     public void jugarPrimeraMano(){
+=======
+
+    public void jugarPrimeraMano(){}/*
+>>>>>>> 6f69de1 (segundo Commit, se agrega contadores de punto segun lo que se cante)
         tantos = tantos();
         Scanner in = new Scanner(System.in);
         int opc = 0;
@@ -99,6 +104,24 @@ public class Jugador {
         return opc;
     }
 
+<<<<<<< HEAD
 
 
+=======
+    public boolean esMano(){
+        return esMano;
+    }
+
+    public void setEsMano(boolean b){
+        this.esMano = b;
+    }
+
+    public Integer getPuntos() {
+        return puntos;
+    }
+
+    public void sumaPuntos(Integer pts){
+        puntos += pts;
+    }
+>>>>>>> 6f69de1 (segundo Commit, se agrega contadores de punto segun lo que se cante)
 }

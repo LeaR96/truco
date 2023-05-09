@@ -27,6 +27,10 @@ public class Main {
         System.out.println("\nEl J1 tiene: " + j1.tantos() + " tantos");
         System.out.println("\nEl J2 tiene: " + j2.tantos() + " tantos");
 
+<<<<<<< HEAD
+=======
+        mazo.mostrarMazo();
+>>>>>>> 6f69de1 (segundo Commit, se agrega contadores de punto segun lo que se cante)
 
     }
 }

@@ -59,6 +59,7 @@ public class Mazo {
         }
 
         public void repartir(Jugador j1, Jugador j2){
+<<<<<<< HEAD
 
                 for(int i = 0; i < 6; i++){
                         j1.recibir(cartas.get(i));
@@ -73,6 +74,21 @@ public class Mazo {
                 j1.recibir(cartas.get(4));
                 j2.recibir(cartas.get(5));
 */
+=======
+                if(j1.esMano()) {
+                        for (int i = 0; i < 6; i++) {
+                                j1.recibir(cartas.get(i));
+                                i++;
+                                j2.recibir(cartas.get(i));
+                        }
+                }else{
+                        for (int i = 0; i < 6; i++) {
+                                j2.recibir(cartas.get(i));
+                                i++;
+                                j1.recibir(cartas.get(i));
+                        }
+                }
+>>>>>>> 6f69de1 (segundo Commit, se agrega contadores de punto segun lo que se cante)
         }
 }
 
